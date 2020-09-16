@@ -93,7 +93,7 @@ class User{
     var firestName: ObservableField<String> =ObservableField<String>()
     val lastName=ObservableField<String>()
     val age=ObservableInt()
-
+// 去掉测试
     fun ceshi(){
         var user=User()
         user.firestName=ObservableField("dddd")
